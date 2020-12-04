@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:           rancher-cli
-Version:        2.4.6
+Version:        2.4.9
 Release:        1%{?dist}
 Summary:        Unified tool for interacting with your Rancher Server
 License:        ASL 2.0
@@ -31,6 +31,9 @@ install -D -p -m 755 cli %{buildroot}%{_bindir}/rancher
 %{_bindir}/rancher
 
 %changelog
+* Fri Dec 04 2020 Simone Caronni <negativo17@gmail.com> - 2.4.9-1
+- Update to 2.4.9.
+
 * Wed Oct 07 2020 Simone Caronni <negativo17@gmail.com> - 2.4.6-1
 - Update to 2.4.6.
 
